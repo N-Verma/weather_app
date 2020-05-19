@@ -3,6 +3,7 @@ import Conditions from '../Conditions/Conditions'
 import classes from './Forecast.module.css';
 const fetch = require("node-fetch");
 
+
 const Forecast = () => {
     let [city, setCity] = useState('');
     let [unit, setUnit] = useState('imperial');
@@ -67,4 +68,5 @@ const Forecast = () => {
         </div>
     )
 }
+
 export default Forecast;
